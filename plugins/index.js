@@ -1,5 +1,5 @@
 /**
- * Created by Navit
+ * Created by Somanshu
  */
 const Inert = require('@hapi/inert');
 const Vision = require('@hapi/vision');

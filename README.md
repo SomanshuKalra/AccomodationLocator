@@ -58,7 +58,7 @@ $ npm -v
 * Step1: Git clone the application
 
 ```
-$ git clone https://github.com/ChoudharyNavit22/User-Onboarding-Module.git
+$ git clone https://github.com/KalraSomanshu22/User-Onboarding-Module.git
 
 $ cd User-Onboarding-Module
 ```

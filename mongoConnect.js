@@ -1,23 +1,23 @@
 /**
- * Created by Navit
+ * Created by Somanshu
  */
 
-'use strict';
-var Mongoose = require('mongoose');
-var CONFIG = require('./config');
-
-
+"use strict";
+var Mongoose = require("mongoose");
+var CONFIG = require("./config");
 
 //Connect to MongoDB
-Mongoose.connect(CONFIG.DB_CONFIG.mongo.URI, { useNewUrlParser: true, useUnifiedTopology: true }, function (err) {
+Mongoose.connect(
+  CONFIG.DB_CONFIG.mongo.URI,
+  { useNewUrlParser: true, useUnifiedTopology: true },
+  function (err) {
     if (err) {
-        console.log("DB Error: ", err);
-        process.exit(1);
+      console.log("DB Error: ", err);
+      process.exit(1);
     } else {
-        console.log('MongoDB Connected');
+      console.log("MongoDB Connected");
     }
-});
+  }
+);
 
 exports.Mongoose = Mongoose;
-
-

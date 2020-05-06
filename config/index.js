@@ -1,11 +1,10 @@
 /**
- * Created by Navit
+ * Created by Somanshu Kalra
  */
 
-'use strict';
+"use strict";
 
 module.exports = {
-    APP_CONSTANTS: require('./appConstants'),
-    AWS_S3_CONFIG: require('./awsS3Config'),
-    DB_CONFIG: require('./dbConfig'),
+  APP_CONSTANTS: require("./appConstants"),
+  DB_CONFIG: require("./dbConfig"),
 };

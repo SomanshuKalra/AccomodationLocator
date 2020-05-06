@@ -1,18 +1,16 @@
 /**
- * Created by Navit
+ * Created by Somanshu
  */
 
- 'use strict';
+"use strict";
 
 var mongo = {
-    URI: process.env.MONGO_URI || 'mongodb://localhost/User_Onboarding_Deakin',
-    //URI: process.env.MONGO_URI || "mongodb://"+process.env.MONGO_USER+":"+process.env.MONGO_PASS+"@localhost/"+process.env.MONGO_DBNAME_DEV,
-    port: 27017
+  URI:
+    process.env.MONGO_URI ||
+    "mongodb+srv://adminuser:QWasxz12!@accomodationlocatorcluster0-10eqp.mongodb.net/test?retryWrites=true&w=majority",
+  port: 27017,
 };
 
 module.exports = {
-    mongo: mongo
+  mongo: mongo,
 };
-
-
-

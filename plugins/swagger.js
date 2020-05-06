@@ -1,6 +1,6 @@
 'use strict';
 /**
- * Created by Navit
+ * Created by Somanshu
  */
 const Config = require('../config')
 const swaggerOptions = {

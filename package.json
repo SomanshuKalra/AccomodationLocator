@@ -1,5 +1,5 @@
 {
-  "name": "user-onboarding-module",
+  "name": "backend-boilerplate",
   "main": "entry.js",
   "description": "A Node based module using Mongodb to onboard user's into a very basic application, secured using JWT authorization",
   "version": "0.1.1",
@@ -8,11 +8,12 @@
     "node": "10.*"
   },
   "scripts": {
-    "start": "node entry.js"
+    "start": "node entry.js",
+    "dev": "nodemon entry.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChoudharyNavit22/User-Onboarding-Module.git"
+    "url": "https://github.com/SomanshuKalra/Backend-Boilerplate.git"
   },
   "dependencies": {
     "@hapi/good": "8.2.0",
@@ -47,6 +48,9 @@
     "underscore": "1.9.1",
     "validator": "11.0.0"
   },
-  "author": "Navit Choudhary",
-  "license": "Apache-2.0"
+  "author": "Somanshu Kalra",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
 }

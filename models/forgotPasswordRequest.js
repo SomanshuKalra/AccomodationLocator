@@ -1,5 +1,5 @@
 /**
- * Created by Navit
+ * Created by Somanshu
  */
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;

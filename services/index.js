@@ -1,5 +1,5 @@
 /**
- * Created by Navit on 1/20/16.
+ * Created by Somanshu on 1/20/16.
  */
 module.exports = {
   UserService: require("./userService"),
